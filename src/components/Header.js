@@ -5,12 +5,12 @@ import magiceden from "./assets/magiceden.png";
 const Header = () => {
   return (
     // outer header container
-    <div className="sticky top-0 z-50 shadow-lg bg-blue-300 flex p-4">
+    <div className="top-0 z-50 shadow-lg bg-violet-500 flex p-4">
       {/* header left - social icons */}
-      <div className="flex items-center p-1">
+      <div className="flex items-center">
         {/* twitter */}
         <div className="rounded-lg mx-2">
-          <a href="http://www.twitter.com/degodsnft">
+          <a href="https://twitter.com/jetgetterclub">
             <img src={twitter} width={50} alt=""></img>
           </a>
         </div>
@@ -28,10 +28,27 @@ const Header = () => {
         </div>
       </div>
 
-      {/* header right: will be a Connect to Wallet button
-      <div className="items-center p-1 justify-end hover:cursor-not-allowed">
-          <div className="rounded-lg bg-white p-3">Connect Wallet</div>
-      </div> */}
+      {/* header right: navigating pages */}
+      <div className="flex items-center space-x-8 ml-auto mr-2">
+        {/* Home */}
+        <div className="rounded-lg">
+          <a href="https://twitter.com/jetgetterclub">
+            <p className="text-orange-400 text-xl">Home</p>
+          </a>
+        </div>
+        {/* Blueprint */}
+        <div className="rounded-lg">
+          <a href="http://www.twitter.com/degodsnft">
+          <p className="text-orange-400 text-xl">Blueprint</p>
+          </a>
+        </div>
+        {/* Shop */}
+        <div className="rounded-lg hover:cursor-not-allowed">
+          <p className="text-orange-400/30 text-xl">Shop</p>
+        </div>
+        {/* wallet connect if desired - placeholder */}
+        <div className="rounded-lg bg-white p-3">Connect Wallet</div>
+      </div>
     </div>
   );
 };
