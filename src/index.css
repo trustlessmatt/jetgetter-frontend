@@ -4,9 +4,19 @@
 
 @font-face {
   font-family: jetgetter;
-  src: url('./fonts/FrancoisOne-Regular.ttf');
+  src: url('./fonts/Yellowtail-Regular.ttf');
+}
+
+@font-face {
+  font-family: jetgetter2;
+  src: url('./fonts/JosefinSans-VariableFont_wght.ttf');
 }
 
 * {
   font-family: jetgetter, mono;
+}
+
+h1 {
+  font-family: jetgetter2, mono;
+  font-size: 400;
 }
