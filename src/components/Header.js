@@ -5,7 +5,7 @@ import magiceden from "./assets/magiceden.png";
 const Header = () => {
   return (
     // outer header container
-    <div className="top-0 z-50 shadow-lg bg-violet-500 flex p-4">
+    <div className="bg-transparent flex items-center p-8">
       {/* header left - social icons */}
       <div className="flex items-center">
         {/* twitter */}
@@ -31,23 +31,23 @@ const Header = () => {
       {/* header right: navigating pages */}
       <div className="flex items-center space-x-8 ml-auto mr-2">
         {/* Home */}
-        <div className="rounded-lg">
+        <div>
           <a href="https://twitter.com/jetgetterclub">
-            <p className="text-orange-400 text-xl">Home</p>
+            <p className="text-orange-400 text-3xl">Home</p>
           </a>
         </div>
         {/* Blueprint */}
-        <div className="rounded-lg">
+        <div>
           <a href="http://www.twitter.com/degodsnft">
-          <p className="text-orange-400 text-xl">Blueprint</p>
+          <p className="text-orange-400 text-3xl">Blueprint</p>
           </a>
         </div>
         {/* Shop */}
-        <div className="rounded-lg hover:cursor-not-allowed">
-          <p className="text-orange-400/30 text-xl">Shop</p>
+        <div className="hover:cursor-not-allowed">
+          <p className="text-orange-400/30 text-3xl">Shop</p>
         </div>
         {/* wallet connect if desired - placeholder */}
-        <div className="rounded-lg bg-white p-3">Connect Wallet</div>
+        {/* <div className="rounded-lg bg-white p-3">Connect Wallet</div> */}
       </div>
     </div>
   );

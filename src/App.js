@@ -1,12 +1,9 @@
-import Header from './components/Header';
+import Home from "./components/Home";
 
 function App() {
   return (
     <div>
-      <Header />
-      <div className='h-screen'>
-        <img src='/lounge.png' alt='lounge'></img>
-      </div>
+      <Home />
     </div>
   );
 }
