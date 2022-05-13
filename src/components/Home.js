@@ -1,15 +1,14 @@
-import clouds from "./assets/clouds.mp4";
+import lounge from "./assets/JetGetter_Lounge.mp4";
 import Header from "./Header";
 
 const Home = () => {
   return (
     <div>
-      <div className="absolute z-10">
+      <div className="relative">
         <Header />
-        <div className="flex justify-right">
+        <div className="absolute z-10">
           <video
-            src={clouds}
-            className="w-full"
+            src={lounge}
             muted
             autoPlay={"autoplay"}
             preload="auto"
@@ -19,8 +18,6 @@ const Home = () => {
             loop
           >
             <source
-              // className="z-0"
-              width="100%"
               alt="clouds"
               type="video/mp4"
               // onClick={() => {
@@ -29,9 +26,6 @@ const Home = () => {
             />
           </video>
         </div>
-      </div>
-      <div className="relative z-20">
-        <img src="/lounge.png" alt="lounge"></img>
       </div>
     </div>
   );

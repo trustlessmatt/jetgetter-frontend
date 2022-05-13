@@ -3,20 +3,31 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: jetgetter;
+  font-family: yellowtail;
   src: url('./fonts/Yellowtail-Regular.ttf');
 }
 
 @font-face {
-  font-family: jetgetter2;
+  font-family: jose;
   src: url('./fonts/JosefinSans-VariableFont_wght.ttf');
 }
 
 * {
-  font-family: jetgetter, mono;
+  font-family: jose, monospace;
 }
 
 h1 {
-  font-family: jetgetter2, mono;
-  font-size: 400;
+  font-family: yellowtail, monospace;
+  font-size: 120px;
 }
+
+h2 {
+  font-family: yellowtail, monospace;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: yellowtail, monospace;
+  font-size: 18px;
+}
+

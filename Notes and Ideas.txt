@@ -1,0 +1,13 @@
+
+Notes/Ideas:
+- Cut out the windows on the airplane lounge (transparent) and i'll overlay
+a video on a loop of clouds going by 0.0
+- Is there anything BELOW the header page or is it simply for navigation 
+to the Roadmap and othe pages?
+- What if we added a blueprint on the table in the middle and it was selectable?
+- The blueprint could be glowing and the user could click on it to take them to
+the blueprint page, where the fun begins:
+
+- Jet model centered on page with blocks of roadmap info on either side
+- Need to find some open source packages for the scrolling effect
+- Do I want to convert this to NextJS for paging and performance improvements?

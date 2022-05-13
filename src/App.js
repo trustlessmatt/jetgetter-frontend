@@ -3,9 +3,8 @@ import Roadmap from "./components/Roadmap";
 
 function App() {
   return (
-    <div>
+    <div className="bg-lounge-floor-purple">
       <Home />
-      <Roadmap />
     </div>
   );
 }
