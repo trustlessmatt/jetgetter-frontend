@@ -4,10 +4,10 @@ import magiceden from "./assets/magiceden.png";
 
 const Header = () => {
   return (
-    <div className="bg-transparent absolute z-20 top-0 left-0 right-0">
+    <div className="bg-transparent pt-10 absolute z-20 top-0 left-0 right-0">
       {/* absolute z-20 */}
       {/* outer header container */}
-      <div className="w-full flex items-center px-8 py-16">
+      <div className="flex items-center px-8">
         {/* header left - social icons */}
         <div className="flex items-center">
           {/* twitter */}
@@ -52,7 +52,7 @@ const Header = () => {
           {/* <div className="rounded-lg bg-white p-3">Connect Wallet</div> */}
         </div>
       </div>
-      {/* <div className="relative z-40 border border-red-500">
+      {/* <div className="absolute z-40 border border-red-500">
         <div className="mx-auto">
         <h1 className="text-lounge-gold text-center">JetGetter Club</h1></div>
       </div> */}

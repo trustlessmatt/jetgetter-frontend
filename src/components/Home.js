@@ -1,4 +1,4 @@
-import lounge from "./assets/JetGetter_Lounge.mp4";
+import lounge from "./assets/JetGetter_Lounge2.mp4";
 import Header from "./Header";
 
 const Home = () => {
@@ -6,26 +6,25 @@ const Home = () => {
     <div>
       <div className="relative">
         <Header />
-        <div className="absolute z-10">
-          <video
-            src={lounge}
-            muted
-            autoPlay={"autoplay"}
-            preload="auto"
+        <video
+          src={lounge}
+          muted
+          autoPlay={"autoplay"}
+          preload="auto"
+          className="absolute z-10 w-full"
+          // onClick={() => {
+          //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
+          // }}
+          loop
+        >
+          <source
+            alt="clouds"
+            type="video/mp4"
             // onClick={() => {
             //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
             // }}
-            loop
-          >
-            <source
-              alt="clouds"
-              type="video/mp4"
-              // onClick={() => {
-              //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
-              // }}
-            />
-          </video>
-        </div>
+          />
+        </video>
       </div>
     </div>
   );
