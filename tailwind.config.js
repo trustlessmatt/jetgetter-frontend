@@ -15,7 +15,12 @@ module.exports = {
           'dark-panel' : '#160435',
           'blueprint' : '#1622dd'
         }
-      }
+      },
+      fontFamily: {
+        yellowtail: ['yellowtail'],
+        jose: ['jose'],
+        caveat: ['caveat']
+      },
     },
   },
   plugins: [],
