@@ -37,14 +37,14 @@ h2 {
 
 p, span {
   font-family: caveat, monospace;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 @media (max-width: 400px) {
   p, span {
     font-family: caveat, monospace;
-    font-size: 18px !important;
-    line-height: 38px !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
   }
 }
 
