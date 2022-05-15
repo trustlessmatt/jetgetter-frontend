@@ -21,6 +21,10 @@
   font-family: jose, monospace;
 }
 
+body {
+  background: #7e02e6;
+}
+
 h1 {
   font-family: yellowtail, monospace;
   font-size: 120px;
@@ -31,7 +35,7 @@ h2 {
   font-size: 32px;
 }
 
-p {
+p, span {
   font-family: caveat, monospace;
   font-size: 30px;
 }

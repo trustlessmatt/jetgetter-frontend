@@ -1,5 +1,5 @@
-import lounge from "./assets/JetGetter_Lounge2.mp4";
-import Header from "./Header";
+import lounge from "../assets/JetGetter_Lounge2.mp4";
+import Header from "../Header";
 
 const Home = () => {
   return (
@@ -25,6 +25,9 @@ const Home = () => {
             // }}
           />
         </video>
+        <div className="absolute top-20 left-0 right-0 z-30 mx-auto">
+            <h1 className="text-lounge-gold text-center">JetGetter Club</h1>
+        </div>
       </div>
     </div>
   );

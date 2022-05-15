@@ -1,11 +1,11 @@
+import { Link } from "react-router-dom";
 import twitter from "./assets/twitter.png";
 import discord from "./assets/discord.png";
 import magiceden from "./assets/magiceden.png";
 
 const Header = () => {
   return (
-    <div className="bg-transparent pt-10 absolute z-20 top-0 left-0 right-0">
-      {/* absolute z-20 */}
+    <div className="bg-transparent pt-10 absolute z-30 top-0 left-0 right-0">
       {/* outer header container */}
       <div className="flex items-center px-8">
         {/* header left - social icons */}
@@ -19,13 +19,13 @@ const Header = () => {
           {/* discord */}
           <div className="rounded-lg mx-2 opacity-50 hover:cursor-not-allowed">
             {/* <a href="http://www.discord.gg/degods"> */}
-              <img src={discord} width={50} alt=""></img>
+            <img src={discord} width={50} alt=""></img>
             {/* </a> */}
           </div>
           {/* magic eden */}
           <div className="rounded-lg mx-2 p-3 opacity-50 hover:cursor-not-allowed">
             {/* <a href="http://www.magiceden.io/marketplace/degods"> */}
-              <img src={magiceden} width={45} alt=""></img>
+            <img src={magiceden} width={45} alt=""></img>
             {/* </a> */}
           </div>
         </div>
@@ -34,28 +34,24 @@ const Header = () => {
         <div className="flex items-center py-2 space-x-8 ml-auto mr-1">
           {/* Home */}
           <div>
-            <a href="/">
-              <p className=" text-lounge-gold text-3xl">Home</p>
-            </a>
+            <Link to="/">
+              <p className=" text-lounge-gold text-3xl font-jose">Home</p>
+            </Link>
           </div>
           {/* Blueprint */}
           <div>
-            <a href="http://www.twitter.com/degodsnft">
-              <p className="text-lounge-gold text-3xl">Blueprint</p>
-            </a>
+            <Link to="/blueprint">
+              <p className="text-lounge-gold text-3xl font-jose">Blueprint</p>
+            </Link>
           </div>
           {/* Shop */}
           <div className="hover:cursor-not-allowed">
-            <p className="text-lounge-gold/30 text-3xl">Shop</p>
+            <p className="text-lounge-gold/30 text-3xl font-jose">Shop</p>
           </div>
           {/* wallet connect if desired - placeholder */}
           {/* <div className="rounded-lg bg-white p-3">Connect Wallet</div> */}
         </div>
       </div>
-      {/* <div className="absolute z-40 border border-red-500">
-        <div className="mx-auto">
-        <h1 className="text-lounge-gold text-center">JetGetter Club</h1></div>
-      </div> */}
     </div>
   );
 };

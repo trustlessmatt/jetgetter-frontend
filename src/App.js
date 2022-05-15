@@ -1,10 +1,9 @@
-import Home from "./components/Home";
-import Roadmap from "./components/Roadmap";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="bg-lounge-floor-purple">
-      <Home />
+    <div>
+      <Main />
     </div>
   );
 }
