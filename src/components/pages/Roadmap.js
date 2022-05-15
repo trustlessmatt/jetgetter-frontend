@@ -1,20 +1,31 @@
 import Header from "../Header";
+import jet from "../assets/jet.png";
+import bp_jet from "../assets/bp_jet.PNG"
 
 const Roadmap = () => {
   return (
     <div>
       {/* outer container for all roadmap items */}
-      <div className="relative bg-top bg-[url('./components/assets/blueprint_ext.PNG')] ">
+      <div className="relative">
         <Header />
+        <div className="w-full">
+          <img src={bp_jet} alt="blueprint jet" />
+        </div>
         {/* OG blueprint */}
-        <div className="w-full pt-64 bg-top bg-[url('./components/assets/blueprint.PNG')] bg-no-repeat pb-52">
-          <div className="mx-40 px-8">
+        <div className="w-full pt-64 bg-top bg-[url('./components/assets/blueprint.PNG')] bg-repeat">
+          <div className="text-[100px] text-center font-jose text-lounge-gold">
+            OG BLUEPRINT
+          </div>
+          <div className="mx-40 px-10">
             <p className="text-white">
               What is the JetGetter Club ?<br />
               <div className="pl-20">
                 <p>
                   Web3 travel brand centered around enjoying life through travel
                   and more...
+                  <br />
+                  For the new wave of travelers. Securing the bag & catching
+                  vibes. Living life unapologetically.
                 </p>
               </div>
               <br />
@@ -32,7 +43,11 @@ const Roadmap = () => {
               <div className="pl-20">
                 <div className="grid grid-cols-3 gap-3">
                   <div>
-                    1. <span className="underline">COMMUNITY</span>:
+                    1.{" "}
+                    <a href="#community">
+                      <span className="underline">COMMUNITY</span>
+                    </a>
+                    :
                   </div>
                   <div className="col-span-2 font-caveat ">
                     We are building a community that wants to experience the
@@ -44,17 +59,19 @@ const Roadmap = () => {
                   <div>
                     2. <span className="underline">MEDIA</span>:
                   </div>
-                  <div className="col-span-2 font-caveat">We are creating a
-                  media outlet to share authentic travel content from and for a
-                  diverse group of people.
+                  <div className="col-span-2 font-caveat">
+                    We are creating a media outlet to share authentic travel
+                    content from and for a diverse group of people.
                   </div>
                   <div>
                     3. <span className="underline">TRAVEL</span>:
                   </div>
                   <div className="col-span-2 font-caveat ">
-                    Book curated trips directly with the JetGeter Club using SOL + USD.
+                    Book curated trips directly with the JetGeter Club using SOL
+                    + USD.
                     <br />
-                    Our partnered destinations: India, Dubai, Greece, Maldives, Bhutan, and a few more...
+                    Our partnered destinations: India, Dubai, Greece, Maldives,
+                    Bhutan, and a few more...
                   </div>
                 </div>
               </div>
@@ -74,10 +91,191 @@ const Roadmap = () => {
               <br />- Community wallet providing rewards for all Jet Hodlers
             </p>
           </div>
-        </div>
         {/* expanded blueprint */}
-        <div className="w-full pt-64 pb-52">
-        Expanded blueprint here...
+          <div className="text-[80px] text-center font-jose text-lounge-gold">
+            EXPANDED BLUEPRINT
+          </div>
+          <div className="mx-40 px-10">
+            <p className="text-white">
+              INTRODUCTION 🛬
+              <br />
+              <div className="pl-20">
+                <p>
+                  Once in a lifetime experiences should be for everyone. For the
+                  average person, traveling to another state can already be a
+                  tall task let alone another country or around the world. As
+                  the tourism industry bounces back and grows, we believe travel
+                  should be accessible to everyone. Others may want to keep it
+                  as a fantasy or believe it's something only wealthy or retired
+                  people can do. Fuck that. We're here to see everyone
+                  experience the world.
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  With over a decade facilitating experiences around the world &
+                  generations in the travel industry, we are pioneering travel
+                  in Web3. While others just look to make a profit & the rest
+                  want to keep it out of reach, we're a group of passionate
+                  travelers that wants to connect the world. Our philosophy is
+                  simple: Traveling will change your life.
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  This is NOT an investment opportunity, moon play, passive
+                  income, or anything like that. Think of it as replacing travel
+                  credit card perks & shit. Your NFT is an exclusive access pass
+                  to a growing brand & community in this space, one that will
+                  reward its holders, provide value to the ecosystem, and have
+                  everyone enjoying life while we do it.
+                </p>
+              </div>
+              <br />
+              30 Seconds in an Elevator ⏱ <br />
+              <div className="pl-20">
+                <p>
+                  "What is JetGetter Club ?"
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  A Brand utilizing Web3 to make travel accessible & build the
+                  dopest travel community in the world. <br />
+                  <br />
+                </p>
+                <p>
+                  "How ?"
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  Accepting crypto for curated travel bookings & creating a
+                  platform to provide resources for the best experiences in the
+                  world.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <br />
+              Why JetGetter? 🛩 <br />
+              <div className="pl-20">
+                <p>
+                  We welcome all PFPs and Normies.
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  JetGetter Club was founded to build the best travel community
+                  in Web3 & our NFTs will give you access to some of the best
+                  experiences in the world. Bond with others over your passion
+                  to see the world and be put on to things you never knew of
+                  before. This is not some cookie cutter shit either, the way we
+                  see travel is about exploring cultures & places to the fullest
+                  not just tourist attractions (though those are still fun).
+                  When our Mint Sells out, we will be sending 20 people on a
+                  trip to one of our partnered destinations. <br />
+                  <br />
+                </p>
+                <p>
+                  There is one thing we know for sure, more people need to
+                  travel and more people need to be invested into crypto. Our
+                  goal is to help onboard in both ways while we catch vibes
+                  together. Life is about balance and doing the things that you
+                  love, even if you don't travel if you believe in that ethos,
+                  you're in the right place.
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  Accepting crypto for curated travel bookings & creating a
+                  platform to provide resources for the best experiences in the
+                  world.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <br />
+              What does it mean to be a JetGetter? 🤔 <br />
+              <div className="pl-20">
+                <p>
+                  It's a lifestyle, rep your PFP online & do JetGetter shit IRL.
+                  <br />
+                  <br />
+                </p>
+                <p>
+                  Simply put, you're a dope individual that knows how to enjoy
+                  life. You're a tastemaker. You're open minded. You want to
+                  experience the most you can in this life. You like good food.
+                  You like to learn about other cultures & you use all these
+                  things to shape your perspective in life. Lastly, you
+                  understand the balance between wealth and enjoying the fruits
+                  of your labor & if you're none of these things but want to
+                  learn, we're here to welcome you. <br />
+                  <br />
+                </p>
+                <p>
+                  There's much more to being a JetGetter but we'll let our
+                  community determine what that means.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <br />
+              What are we building? 🧱 <br />
+              <div className="pl-20">
+                <div className="grid grid-cols-3 gap-3">
+                  <div id="community">
+                    1. <span className="underline">COMMUNITY</span>:
+                  </div>
+                  <div className="col-span-2 font-caveat ">
+                    Our community will be the “Travel Influencers”, but the most
+                    authentic ones you've come across. People coming together to
+                    share their experiences with others, learn from one another,
+                    form bonds that may lead to taking trips together, meetups
+                    when you're in each others' cities, and just an overall
+                    place to have fun around similar interests.
+                  </div>
+                  <div id="media">
+                    2. <span className="underline">MEDIA</span>:
+                  </div>
+                  <div className="col-span-2 font-caveat">
+                    How do we showcase our community as the tastemakers of Web3?
+                    We build & use our platform to showcase our expertise by
+                    providing quality travel content that is authentic &
+                    informative. We'll be looking for video editors & quality
+                    content created to be featured on various social media
+                    pages. This is an opportunity for us to create partnerships,
+                    reward & showcase members of our community, bring some
+                    realness to the travel industry and grow the overall brand.
+                    Aside from creating content, there has been a rising desire
+                    from our community to put all the info we share in discord
+                    in a consolidated way. Post mint we'll explore building a
+                    social media-like platform to have all the information
+                    stored in an easily accessible way.
+                  </div>
+                  <div id="travel">
+                    3. <span className="underline">TRAVEL</span>:
+                  </div>
+                  <div className="col-span-2 font-caveat ">
+                    This is the alpha you've been waiting for. We are suppliers
+                    of full vacation packages in a number of countries including
+                    India, Dubai, Greece, Maldives, and Bhutan. What that mean
+                    is we already have partnerships with airlines, hotels,
+                    drivers, and guides where we have curated itineraries that
+                    are customizable based on your interests upon your request.
+                    Our partnerships with airlines for booking flights are
+                    currently only for those flying out of the US but anyone
+                    international can still take advantage of everything else in
+                    any of those destinations. These trips are also perfect for
+                    NFT communities to connect IRL as we can service up to a 500
+                    person trip.
+                  </div>
+                </div>
+              </div>
+              <br />
+            </p>
+          </div>
         </div>
       </div>
     </div>
