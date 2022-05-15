@@ -40,3 +40,11 @@ p, span {
   font-size: 30px;
 }
 
+@media (max-width: 400px) {
+  p, span {
+    font-family: caveat, monospace;
+    font-size: 18px !important;
+    line-height: 38px !important;
+  }
+}
+

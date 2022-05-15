@@ -1,6 +1,9 @@
 import Header from "../Header";
 import jet from "../assets/jet.png";
-import bp_jet from "../assets/bp_jet.PNG"
+import bp_jet from "../assets/bp_jet.PNG";
+import animate from "../animate";
+
+animate.observeAll();
 
 const Roadmap = () => {
   return (
@@ -8,17 +11,15 @@ const Roadmap = () => {
       {/* outer container for all roadmap items */}
       <div className="relative">
         <Header />
-        <div className="w-full">
-          <img src={bp_jet} alt="blueprint jet" />
-        </div>
+        <img src={bp_jet} className="mx-auto" alt="blueprint jet" />
         {/* OG blueprint */}
-        <div className="w-full pt-64 bg-top bg-[url('./components/assets/blueprint.PNG')] bg-repeat">
-          <div className="text-[100px] text-center font-jose text-lounge-gold">
+        <div className="text-white font-jose w-full pt-8 bg-top bg-[url('./components/assets/blueprint.PNG')] bg-repeat">
+          <div className="sm:text-[100px] text-[40px] text-center font-jose text-lounge-gold pt-8">
             OG BLUEPRINT
           </div>
-          <div className="mx-40 px-10">
-            <p className="text-white">
-              What is the JetGetter Club ?<br />
+          <div className="sm:mx-40 sm:px-10 px-6">
+            <div>
+              <p>What is the JetGetter Club ?<br /></p>
               <div className="pl-20">
                 <p>
                   Web3 travel brand centered around enjoying life through travel
@@ -29,7 +30,7 @@ const Roadmap = () => {
                 </p>
               </div>
               <br />
-              Who are JetGetters ?<br />
+              <p>Who are JetGetters ?<br /></p>
               <div className="pl-20">
                 <p>
                   JetGetters are tastemakers that know the best spots around the
@@ -37,69 +38,77 @@ const Roadmap = () => {
                 </p>
               </div>
               <br />
-            </p>
-            <p className="text-white">
-              What is the JetGetter Club building ?<br />
+            </div>
+            <div>
+              <p>What is the JetGetter Club building ?<br /></p>
               <div className="pl-20">
                 <div className="grid grid-cols-3 gap-3">
                   <div>
-                    1.{" "}
+                    1.
                     <a href="#community">
                       <span className="underline">COMMUNITY</span>
                     </a>
                     :
                   </div>
-                  <div className="col-span-2 font-caveat ">
-                    We are building a community that wants to experience the
+                  <div className="col-span-2">
+                    <p>We are building a community that wants to experience the
                     world.
                     <br />
                     Supporting each other, sharing experiences, and providing
-                    valuable travel gems are a few things you can expect.
+                    valuable travel gems are a few things you can expect.</p>
                   </div>
                   <div>
-                    2. <span className="underline">MEDIA</span>:
+                    2.<a href="#media">
+                      <span className="underline">MEDIA</span>
+                    </a>:
                   </div>
-                  <div className="col-span-2 font-caveat">
-                    We are creating a media outlet to share authentic travel
-                    content from and for a diverse group of people.
+                  <div className="col-span-2">
+                    <p>We are creating a media outlet to share authentic travel
+                    content from and for a diverse group of people.</p>
                   </div>
                   <div>
-                    3. <span className="underline">TRAVEL</span>:
+                    3.<a href="#travel">
+                      <span className="underline">TRAVEL</span>
+                    </a>:
                   </div>
-                  <div className="col-span-2 font-caveat ">
-                    Book curated trips directly with the JetGeter Club using SOL
+                  <div className="col-span-2">
+                    <p>Book curated trips directly with the JetGeter Club using SOL
                     + USD.
                     <br />
                     Our partnered destinations: India, Dubai, Greece, Maldives,
-                    Bhutan, and a few more...
+                    Bhutan, and a few more...</p>
                   </div>
                 </div>
               </div>
-            </p>
-            <p className="text-white pb-20">
-              Jet Hodler Perks:
-              <br />
-              - 20 Hodlers will be gifted a vacation to one of our partnered
-              destinations (details post-mint)
-              <br />
-              - Exclusive pricing on trip bookings through the JetGetter Club +
-              any products we sell
-              <br />
-              - Access to the best travel community in Web3
-              <br />
-              - A 3D NFT of a Jet created by a Jeweler
-              <br />- Community wallet providing rewards for all Jet Hodlers
-            </p>
+            </div>
+            <div className="transition transform duration-500 opacity-0 translate-x-32" data-class-in="translate-x-0 opacity-100" data-class-out="translate-x-32 opacity-0">
+              <p className="text-white pb-20">
+                Jet Hodler Perks:
+                <br />
+                - 20 Hodlers will be gifted a vacation to one of our partnered
+                destinations (details post-mint)
+                <br />
+                - Exclusive pricing on trip bookings through the JetGetter Club +
+                any products we sell
+                <br />
+                - Access to the best travel community in Web3
+                <br />
+                - A 3D NFT of a Jet created by a Jeweler
+                <br />- Community wallet providing rewards for all Jet Hodlers
+              </p>
+              <br /><br />
+            </div>
           </div>
-        {/* expanded blueprint */}
-          <div className="text-[80px] text-center font-jose text-lounge-gold">
+          <img src={jet} className="mx-auto" alt="gold jet" />
+          {/* expanded blueprint */}
+          <div className="text-[80px] py-6 text-center font-jose text-lounge-gold">
             EXPANDED BLUEPRINT
           </div>
           <div className="mx-40 px-10">
-            <p className="text-white">
-              INTRODUCTION 🛬
+            <div>
+              <p><span className="underline">INTRODUCTION</span>{" "}🛬</p>
               <br />
-              <div className="pl-20">
+              <div className="transition transform duration-500 opacity-0 translate-x-32" data-class-in="translate-x-0 opacity-100" data-class-out="translate-x-32 opacity-0">
                 <p>
                   Once in a lifetime experiences should be for everyone. For the
                   average person, traveling to another state can already be a
@@ -132,8 +141,8 @@ const Roadmap = () => {
                 </p>
               </div>
               <br />
-              30 Seconds in an Elevator ⏱ <br />
-              <div className="pl-20">
+              <p><span className="underline">30 SECONDS IN AN ELEVATOR</span>⏱</p><br />
+              <div className="transition transform duration-500 opacity-0 translate-x-32" data-class-in="translate-x-0 opacity-100" data-class-out="translate-x-32 opacity-0">
                 <p>
                   "What is JetGetter Club ?"
                   <br />
@@ -158,8 +167,8 @@ const Roadmap = () => {
                 </p>
               </div>
               <br />
-              Why JetGetter? 🛩 <br />
-              <div className="pl-20">
+              <p><span className="underline">WHY JETGETTER ?</span> 🛩 </p><br />
+              <div className="transition transform duration-500 opacity-0 translate-x-32" data-class-in="translate-x-0 opacity-100" data-class-out="translate-x-32 opacity-0">
                 <p>
                   We welcome all PFPs and Normies.
                   <br />
@@ -196,8 +205,8 @@ const Roadmap = () => {
                 </p>
               </div>
               <br />
-              What does it mean to be a JetGetter? 🤔 <br />
-              <div className="pl-20">
+              <p><span className="underline">WHAT DOES IT MEAN TO BE A JETGETTER ?</span> 🤔</p><br />
+              <div className="transition transform duration-500 opacity-0 translate-x-32" data-class-in="translate-x-0 opacity-100" data-class-out="translate-x-32 opacity-0">
                 <p>
                   It's a lifestyle, rep your PFP online & do JetGetter shit IRL.
                   <br />
@@ -222,25 +231,25 @@ const Roadmap = () => {
                 </p>
               </div>
               <br />
-              What are we building? 🧱 <br />
+              <p><span className="underline">WHAT ARE WE BUILDING ?</span> 🧱</p><br />
               <div className="pl-20">
                 <div className="grid grid-cols-3 gap-3">
                   <div id="community">
                     1. <span className="underline">COMMUNITY</span>:
                   </div>
-                  <div className="col-span-2 font-caveat ">
-                    Our community will be the “Travel Influencers”, but the most
+                  <div className="col-span-2">
+                    <p>Our community will be the “Travel Influencers”, but the most
                     authentic ones you've come across. People coming together to
                     share their experiences with others, learn from one another,
                     form bonds that may lead to taking trips together, meetups
                     when you're in each others' cities, and just an overall
-                    place to have fun around similar interests.
+                    place to have fun around similar interests.</p>
                   </div>
                   <div id="media">
                     2. <span className="underline">MEDIA</span>:
                   </div>
-                  <div className="col-span-2 font-caveat">
-                    How do we showcase our community as the tastemakers of Web3?
+                  <div className="col-span-2">
+                    <p>How do we showcase our community as the tastemakers of Web3?
                     We build & use our platform to showcase our expertise by
                     providing quality travel content that is authentic &
                     informative. We'll be looking for video editors & quality
@@ -252,13 +261,13 @@ const Roadmap = () => {
                     from our community to put all the info we share in discord
                     in a consolidated way. Post mint we'll explore building a
                     social media-like platform to have all the information
-                    stored in an easily accessible way.
+                    stored in an easily accessible way.</p>
                   </div>
                   <div id="travel">
                     3. <span className="underline">TRAVEL</span>:
                   </div>
-                  <div className="col-span-2 font-caveat ">
-                    This is the alpha you've been waiting for. We are suppliers
+                  <div className="col-span-2">
+                    <p>This is the alpha you've been waiting for. We are suppliers
                     of full vacation packages in a number of countries including
                     India, Dubai, Greece, Maldives, and Bhutan. What that mean
                     is we already have partnerships with airlines, hotels,
@@ -269,12 +278,12 @@ const Roadmap = () => {
                     international can still take advantage of everything else in
                     any of those destinations. These trips are also perfect for
                     NFT communities to connect IRL as we can service up to a 500
-                    person trip.
+                    person trip.</p>
                   </div>
                 </div>
               </div>
               <br />
-            </p>
+            </div>
           </div>
         </div>
       </div>
