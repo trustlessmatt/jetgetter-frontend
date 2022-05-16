@@ -17,7 +17,7 @@ const Roadmap = () => {
           <div className="md:text-[100px] text-[40px] text-center font-jose text-lounge-gold pt-8">
             OG BLUEPRINT
           </div>
-          <div className="lg:mx-40 md:mx-20 px-10">
+          <div className="lg:mx-60 md:mx-20 px-10">
             <div>
               <p>
                 What is the JetGetter Club ?<br />
@@ -50,11 +50,9 @@ const Roadmap = () => {
               <div className="sm:pl-20">
                 <div className="grid grid-cols-3 gap-3">
                   <div>
-                    1.
                     <a href="#community">
-                      <span className="underline">COMMUNITY</span>
+                      <span className="underline">COMMUNITY:</span>
                     </a>
-                    :
                   </div>
                   <div className="col-span-2">
                     <p>
@@ -66,11 +64,9 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div>
-                    2.
                     <a href="#media">
-                      <span className="underline">MEDIA</span>
+                      <span className="underline">MEDIA:</span>
                     </a>
-                    :
                   </div>
                   <div className="col-span-2">
                     <p>
@@ -79,11 +75,9 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div>
-                    3.
                     <a href="#travel">
-                      <span className="underline">TRAVEL</span>
+                      <span className="underline">TRAVEL:</span>
                     </a>
-                    :
                   </div>
                   <div className="col-span-2">
                     <p>
@@ -289,7 +283,7 @@ const Roadmap = () => {
               <div className="pl-20">
                 <div className="grid grid-cols-3 gap-3">
                   <div id="community">
-                    1. <span className="underline">COMMUNITY</span>:
+                    1.{" "}<span className="font-opensans underline">COMMUNITY</span>:
                   </div>
                   <div className="col-span-2">
                     <p>

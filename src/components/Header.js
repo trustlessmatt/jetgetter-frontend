@@ -9,7 +9,7 @@ const Header = () => {
       {/* outer header container */}
       <div className="flex items-center px-8">
         {/* header left - social icons */}
-        <div className="flex items-center">
+        <div className="hidden sm:flex sm:items-center">
           {/* twitter */}
           <div className="rounded-lg mx-2">
             <a href="https://twitter.com/jetgetterclub">
@@ -31,7 +31,7 @@ const Header = () => {
         </div>
 
         {/* header right: navigating pages */}
-        <div className="flex items-center py-2 space-x-8 ml-auto mr-1">
+        <div className="flex items-center py-2 space-x-8 sm:ml-auto sm:mr-1 mx-auto">
           {/* Home */}
           <div>
             <Link to="/">
