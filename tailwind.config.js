@@ -19,7 +19,9 @@ module.exports = {
       fontFamily: {
         yellowtail: ['yellowtail'],
         jose: ['jose'],
-        caveat: ['caveat']
+        caveat: ['caveat'],
+        merriweather: ['merriweather'],
+        opensans: ['opensans']
       },
     },
   },

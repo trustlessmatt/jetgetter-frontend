@@ -17,6 +17,16 @@
   src: url('./fonts/Caveat.ttf');
 }
 
+@font-face {
+  font-family: merriweather;
+  src: url('./fonts/Merriweather-Light.ttf');
+}
+
+@font-face {
+  font-family: opensans;
+  src: url('./fonts/OpenSans-VariableFont.ttf');
+}
+
 * {
   font-family: jose, monospace;
 }
@@ -35,14 +45,20 @@ h2 {
   font-size: 32px;
 }
 
-p, span {
-  font-family: caveat, monospace;
-  font-size: 26px;
+p {
+  font-family: merriweather, monospace;
+  font-size: 24px;
+}
+
+span {
+  font-family: opensans, monospace;
+  font-size: 28px;
+  font-weight: 800;
 }
 
 @media (max-width: 400px) {
   p, span {
-    font-family: caveat, monospace;
+    font-family: merriweather, monospace;
     font-size: 14px !important;
     line-height: 28px !important;
   }
