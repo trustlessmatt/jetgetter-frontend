@@ -3,9 +3,10 @@ import jet from "../assets/jet.png";
 import bp_jet from "../assets/bp_jet.PNG";
 import animate from "../animate";
 
-animate.observeAll();
-
 const Roadmap = () => {
+  
+  animate.observeAll();
+
   return (
     <div>
       {/* outer container for all roadmap items */}
