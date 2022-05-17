@@ -1,4 +1,4 @@
-import lounge from "../assets/JetGetter_Lounge3.mp4";
+import lounge from "../assets/Lounge.mp4";
 import Header from "../Header";
 import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
