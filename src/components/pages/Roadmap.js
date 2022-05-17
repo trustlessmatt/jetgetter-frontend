@@ -284,13 +284,6 @@ const Roadmap = () => {
                     <br />
                     <br />
                   </p>
-                  <p>
-                    Accepting crypto for curated travel bookings & creating a
-                    platform to provide resources for the best experiences in
-                    the world.
-                    <br />
-                    <br />
-                  </p>
                 </div>
                 <br />
                 <p>
@@ -481,17 +474,18 @@ const Roadmap = () => {
                   <p>
                     This process will be repeated until 20 NFTs backed by trips
                     are given out. Trips won’t be the only things backing NFTs
-                    though. What about the people that don’t get selected? All
+                    though.
+                    <br />
+                    <br /> What about the people that don’t get selected? All
                     good, we’ll have plenty of opportunities to earn rewards and
                     we’ll be able to see who has staked the longest even when
-                    the 24 day snapshot is up.. If you buy our NFT on secondary
-                    while the 24 Day stake has commenced, you can still stake
-                    right away. Our thinking here is that we’ll determine who
-                    the diamond hands are by the number of total days staked &
-                    we’ll have plenty for those Diamond Jet Holders to come. Who
-                    needs a Travel CC or points when you a part of JetGetter
-                    Club 😈 (we’re fucking with you...keep your travel cc &
-                    points on deck lol 😂)
+                    the 24 day snapshot is up.. <br />
+                    <br />
+                    If you buy our NFT on secondary while the 24 Day stake has
+                    commenced, you can still stake right away. Our thinking here
+                    is that we’ll determine who the diamond hands are by the
+                    number of total days staked & we’ll have plenty for those
+                    Diamond Jet Holders to come.
                     <br />
                     <br />
                   </p>
@@ -513,17 +507,20 @@ const Roadmap = () => {
                     experience - not cheap liquor and prepaid food within a
                     resort. The destinations we have built itineraries for and
                     are partnered with are ones that take an extra level of
-                    effort to prepare for your arrival. Not every destination
-                    needs to be all inclusive or planned out so much in advance,
-                    that's why the destinations we are partnered with are the
-                    ones where it is better to be more prepared. Preparation and
-                    local knowledge is key when visiting these countries, you
-                    don't want to show up and not be able to do something. The
-                    logistics behind these destinations matter a lot more. The
-                    bookings will be available to everyone in SOL, USD, & $DUST
-                    with holders of our Jet NFT receiving exclusive pricing.
-                    Currently we are exploring how to integrate these payment
-                    methods within our website.
+                    effort to prepare for your arrival. <br />
+                    <br />
+                    Not every destination needs to be all inclusive or planned
+                    out so much in advance, that's why the destinations we are
+                    partnered with are the ones where it is better to be more
+                    prepared. Preparation and local knowledge is key when
+                    visiting these countries, you don't want to show up and not
+                    be able to do something. The logistics behind these
+                    destinations matter a lot more. <br />
+                    <br />
+                    The bookings will be available to everyone in SOL, USD, &
+                    $DUST with holders of our Jet NFT receiving exclusive
+                    pricing. Currently we are exploring how to integrate these
+                    payment methods within our website.
                     <br />
                     <br />
                   </p>
@@ -539,23 +536,30 @@ const Roadmap = () => {
                 // data-class-out="translate-x-32 opacity-0"
                 >
                   <p>
-                    We understand that all inclusive vacation packages aren't
-                    for everyone; trust me we're right there with you. Our 'All
-                    inclusive' is more about ensuring you get an authentic
-                    experience - not cheap liquor and prepaid food within a
-                    resort. The destinations we have built itineraries for and
-                    are partnered with are ones that take an extra level of
-                    effort to prepare for your arrival. Not every destination
-                    needs to be all inclusive or planned out so much in advance,
-                    that's why the destinations we are partnered with are the
-                    ones where it is better to be more prepared. Preparation and
-                    local knowledge is key when visiting these countries, you
-                    don't want to show up and not be able to do something. The
-                    logistics behind these destinations matter a lot more. The
-                    bookings will be available to everyone in SOL, USD, & $DUST
-                    with holders of our Jet NFT receiving exclusive pricing.
-                    Currently we are exploring how to integrate these payment
-                    methods within our website.
+                    We want to put more power into the hands of our tour guides
+                    and drivers. These people are the ones making the experience
+                    for the tourists and usually get taken advantage of by
+                    different tour companies. We are our own tour company,
+                    meaning our people get paid on time and get paid well for
+                    the experiences they provide.
+                    <br />
+                    <br />
+                    We are a US based company & in the US only 33% of people
+                    have an active passport. We can only imagine what those
+                    numbers could be around the world.
+                    <br />
+                    <br />
+                    When it comes to an international trip, we know there can be
+                    roadblocks like having the financial ability, getting time
+                    off, or just the effort that goes into planning. Now we can
+                    try to write your work a note but if you can get the time
+                    off, we will solve #1 & #3. The other aspect here is being a
+                    part of the Solana community as individuals for so long
+                    we've loved seeing stories of people winning on their plays.
+                    We want to provide you an opportunity to celebrate & reflect
+                    on those wins without having to convert it. This is also an
+                    opportunity to use strong alt coins from NFT projects within
+                    the ecosystem!
                     <br />
                     <br />
                   </p>
@@ -589,23 +593,12 @@ const Roadmap = () => {
                 // data-class-out="translate-x-32 opacity-0"
                 >
                   <p>
-                    We understand that all inclusive vacation packages aren't
-                    for everyone; trust me we're right there with you. Our 'All
-                    inclusive' is more about ensuring you get an authentic
-                    experience - not cheap liquor and prepaid food within a
-                    resort. The destinations we have built itineraries for and
-                    are partnered with are ones that take an extra level of
-                    effort to prepare for your arrival. Not every destination
-                    needs to be all inclusive or planned out so much in advance,
-                    that's why the destinations we are partnered with are the
-                    ones where it is better to be more prepared. Preparation and
-                    local knowledge is key when visiting these countries, you
-                    don't want to show up and not be able to do something. The
-                    logistics behind these destinations matter a lot more. The
-                    bookings will be available to everyone in SOL, USD, & $DUST
-                    with holders of our Jet NFT receiving exclusive pricing.
-                    Currently we are exploring how to integrate these payment
-                    methods within our website.
+                    The Jet Reserve is our treasury that will be used to grow
+                    and expand this brand. It will be initially funded with a
+                    percentage from mint. From there it will be sustained by
+                    revenue from our bookings, percentages from our royalties
+                    and more. Let's just say we'll be making minting fun again
+                    in the near future 👀
                     <br />
                     <br />
                   </p>
