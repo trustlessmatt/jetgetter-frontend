@@ -152,7 +152,7 @@ const Roadmap = () => {
                   offset={-50}
                   duration={1000}
                 >
-                  <div className="text-lounge-gold sm:text-[40px] text-[25px] pb-8 font-caveat hover:cursor-pointer">
+                  <div className="text-lounge-gold sm:text-[40px] text-[22px] pb-8 font-caveat hover:cursor-pointer">
                     Click Here To Meet Our Dope Team 🌈
                   </div>
                 </Link>
@@ -166,10 +166,10 @@ const Roadmap = () => {
             <div className="lg:mx-60 md:mx-20 px-10 text-slate-700">
               <div>
                 <p>
-                  <strong>
+                  <em>
                     For the new wave of travelers. Securing the bag & catching
                     vibes. Living life unapologetically.
-                  </strong>
+                  </em>
                   <br />
                   <br />
                 </p>
