@@ -1,42 +1,38 @@
 import Header from "../Header";
 import jet from "../assets/jet.png";
-import bp_jet from "../assets/bp_jet.PNG";
-import animate from "../animate";
+// import animate from "../animate";
+
+import matt from "../assets/6695-dead.jpg";
 
 const Roadmap = () => {
-  
-  animate.observeAll();
+  // animate.observeAll();
 
   return (
-    <div>
+    <div className="bg-lounge-white-couch">
       {/* outer container for all roadmap items */}
       <div className="relative">
         <Header />
-        <img src={bp_jet} className="mx-auto" alt="blueprint jet" />
         {/* OG blueprint */}
-        <div className="text-white font-jose w-full pt-8 bg-top bg-[url('./components/assets/blueprint.PNG')] bg-repeat">
-          <div className="md:text-[100px] text-[40px] text-center font-jose text-lounge-gold pt-8">
+        <div className="text-white w-full pt-60 bg-top bg-[url('./components/assets/blueprint.PNG')] bg-no-repeat">
+          <div className="md:text-[90px] text-[40px] text-center font-jose text-lounge-gold pt-8">
             OG BLUEPRINT
           </div>
           <div className="lg:mx-60 md:mx-20 px-10">
             <div>
-              <p>
-                What is the JetGetter Club ?<br />
+              <p className="py-8">
+                <em>What is the JetGetter Club ?</em><br />
               </p>
-              <div className="pl-20">
+              <div className="md:pl-20">
                 <p>
                   Web3 travel brand centered around enjoying life through travel
                   and more...
-                  <br />
-                  For the new wave of travelers. Securing the bag & catching
-                  vibes. Living life unapologetically.
                 </p>
               </div>
               <br />
-              <p>
-                Who are JetGetters ?<br />
+              <p className="py-8">
+                <em>Who are JetGetters ?</em><br />
               </p>
-              <div className="pl-20">
+              <div className="md:pl-20">
                 <p>
                   JetGetters are tastemakers that know the best spots around the
                   world.
@@ -45,17 +41,19 @@ const Roadmap = () => {
               <br />
             </div>
             <div>
-              <p>
-                What is the JetGetter Club building ?<br />
+              <p className="py-8">
+                <em>What is the JetGetter Club building ?</em><br />
               </p>
-              <div className="sm:pl-20">
-                <div className="grid grid-cols-3 gap-3">
+              <div className="md:pl-20">
+                <div className="md:grid md:grid-cols-3 md:gap-3">
                   <div>
                     <a href="#community">
-                      <span className="underline">COMMUNITY:</span>
+                      <span className="underline text-lounge-gold">
+                        COMMUNITY:
+                      </span>
                     </a>
                   </div>
-                  <div className="col-span-2">
+                  <div className="md:col-span-2">
                     <p>
                       We are building a community that wants to experience the
                       world.
@@ -66,7 +64,7 @@ const Roadmap = () => {
                   </div>
                   <div>
                     <a href="#media">
-                      <span className="underline">MEDIA:</span>
+                      <span className="underline text-lounge-gold">MEDIA:</span>
                     </a>
                   </div>
                   <div className="col-span-2">
@@ -77,7 +75,9 @@ const Roadmap = () => {
                   </div>
                   <div>
                     <a href="#travel">
-                      <span className="underline">TRAVEL:</span>
+                      <span className="underline text-lounge-gold">
+                        TRAVEL:
+                      </span>
                     </a>
                   </div>
                   <div className="col-span-2">
@@ -93,13 +93,12 @@ const Roadmap = () => {
               </div>
             </div>
             <div
-              className="transition transform duration-500 opacity-0 translate-x-32"
-              data-class-in="translate-x-0 opacity-100"
-              data-class-out="translate-x-32 opacity-0"
+            // className="transition transform duration-500 opacity-0 translate-x-32"
+            // data-class-in="translate-x-0 opacity-100"
+            // data-class-out="translate-x-32 opacity-0"
             >
-              <p className="text-white pb-20">
-                Jet Hodler Perks:
-                <br />
+              <p className="text-white py-8">Jet Hodler Perks:</p>
+              <p className="pb-20">
                 - 20 Hodlers will be gifted a vacation to one of our partnered
                 destinations (details post-mint)
                 <br />
@@ -109,7 +108,6 @@ const Roadmap = () => {
                 - Access to the best travel community in Web3
                 <br />
                 - A 3D NFT of a Jet created by a Jeweler
-                <br />- Community wallet providing rewards for all Jet Hodlers
               </p>
               <br />
               <br />
@@ -117,19 +115,23 @@ const Roadmap = () => {
           </div>
           <img src={jet} className="mx-auto px-28" alt="gold jet" />
           {/* expanded blueprint */}
-          <div className="md:text-[100px] text-[40px]  py-6 text-center font-jose text-lounge-gold">
+          <div className="md:text-[90px] text-[40px] py-6 text-center font-jose text-lounge-gold">
             EXPANDED BLUEPRINT
           </div>
-          <div className="mx-40 px-10">
+          <div className="lg:mx-60 md:mx-20 px-10 text-slate-700">
             <div>
+              <p>
+                <strong>For the new wave of travelers. Securing the bag & catching
+                vibes. Living life unapologetically.</strong><br /><br />
+              </p>
               <p>
                 <span className="underline">INTRODUCTION</span> 🛬
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   Once in a lifetime experiences should be for everyone. For the
@@ -168,12 +170,12 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
-                  "What is JetGetter Club ?"
+                  <em>"What is JetGetter Club ?"</em>
                   <br />
                   <br />
                 </p>
@@ -183,7 +185,7 @@ const Roadmap = () => {
                   <br />
                 </p>
                 <p>
-                  "How ?"
+                  <em>"How ?"</em>
                   <br />
                   <br />
                 </p>
@@ -201,9 +203,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   We welcome all PFPs and Normies.
@@ -249,9 +251,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   It's a lifestyle, rep your PFP online & do JetGetter shit IRL.
@@ -281,12 +283,14 @@ const Roadmap = () => {
                 <span className="underline">WHAT ARE WE BUILDING ?</span> 🧱
               </p>
               <br />
-              <div className="pl-20">
-                <div className="grid grid-cols-3 gap-3">
+              <div className="md:pl-20">
+                <div className="md:grid md:grid-cols-3 md:gap-3">
                   <div id="community">
-                    1.{" "}<span className="font-opensans underline">COMMUNITY</span>:
+                    <span className="text-lounge-gold font-opensans underline">
+                      COMMUNITY:
+                    </span>
                   </div>
-                  <div className="col-span-2">
+                  <div className="md:col-span-2">
                     <p>
                       Our community will be the “Travel Influencers”, but the
                       most authentic ones you've come across. People coming
@@ -298,9 +302,9 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div id="media">
-                    2. <span className="underline">MEDIA</span>:
+                    <span className="text-lounge-gold underline">MEDIA:</span>
                   </div>
-                  <div className="col-span-2">
+                  <div className="md:col-span-2">
                     <p>
                       How do we showcase our community as the tastemakers of
                       Web3? We build & use our platform to showcase our
@@ -319,11 +323,11 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div id="travel">
-                    3. <span className="underline">TRAVEL</span>:
+                    <span className="text-lounge-gold underline">TRAVEL:</span>
                   </div>
-                  <div className="col-span-2">
+                  <div className="md:col-span-2">
                     <p>
-                      This is the alpha you've been waiting for. We are
+                      <em>This is the alpha you've been waiting for. </em>We are
                       suppliers of full vacation packages in a number of
                       countries including India, Dubai, Greece, Maldives, and
                       Bhutan. What that mean is we already have partnerships
@@ -349,9 +353,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   - A few days after mint out, we'll have a 24 day stake to give
@@ -378,9 +382,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   Up until this point staking has been for a token that can be
@@ -450,9 +454,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   We understand that all inclusive vacation packages aren't for
@@ -483,9 +487,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   We understand that all inclusive vacation packages aren't for
@@ -514,9 +518,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   We believe Solana will be the blockchain for mass adoption and
@@ -532,9 +536,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   We understand that all inclusive vacation packages aren't for
@@ -563,9 +567,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   We plan to explore having our own coin that can be used within
@@ -582,9 +586,9 @@ const Roadmap = () => {
               </p>
               <br />
               <div
-                className="transition transform duration-500 opacity-0 translate-x-32"
-                data-class-in="translate-x-0 opacity-100"
-                data-class-out="translate-x-32 opacity-0"
+              // className="transition transform duration-500 opacity-0 translate-x-32"
+              // data-class-in="translate-x-0 opacity-100"
+              // data-class-out="translate-x-32 opacity-0"
               >
                 <p>
                   Seems to be on every roadmap nowadays & why not? If you're a
@@ -594,6 +598,98 @@ const Roadmap = () => {
                   <br />
                   <br />
                 </p>
+              </div>
+              <br />
+              {/* about the team */}
+              <p>
+                <span className="underline">OUR TEAM </span> ❤️
+              </p>
+              <br />
+              <div>
+                <div className="sm:grid sm:grid-cols-3 sm:gap-3">
+                  <div className="my-auto">
+                    <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
+                      <img src="" alt="airmaanz" />
+                    </div>
+                  </div>
+                  <div className="col-span-2">
+                    <span className="font-caveat text-3xl underline">
+                      AirMaanz
+                    </span>
+                    <p>
+                      Our founder Maanz comes from a background in business
+                      development in startup & tech companies but travel changed
+                      his life. He's also explored independent ventures in the
+                      music industry, ecommerce, and travel industry ranging
+                      from social media influencer to creating merchandise to
+                      booking shows. His successes and failures along the way is
+                      what fuels this project. The travel aspect is a family
+                      affair, generations of experience in the industry has led
+                      to us being the suppliers for the experiences we currently
+                      offer. The destinations started with the mother land
+                      (India) and expanded from there specifically to places
+                      that take an extra effort to plan and be in tune with the
+                      culture. These itineraries have been booked in web2 for
+                      over a decade, Maanz plans to use web3 to inspire more
+                      people to take trips that change your life.
+                    </p>
+                  </div>
+                  <div className="my-auto">
+                    <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
+                      <img src="" alt="28G" />
+                    </div>
+                  </div>
+                  <div className="col-span-2">
+                    <span className="font-caveat text-3xl underline">28G</span>
+                    <p>
+                      Our co-founder 28G likes to keep it low key because real
+                      Gs move in silence ...lol. Her background is in tech,
+                      philanthropy and nonprofit building teams, creating
+                      strategy and partnering with CEOs & Directors to get shit
+                      done. She's currently a project manager in Web3 at a
+                      leading brand within the Solana ecosystem.
+                    </p>
+                  </div>
+                  <div className="my-auto">
+                    <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
+                      <img src="" alt="Travel OG" />
+                    </div>
+                  </div>
+                  <div className="col-span-2">
+                    <span className="font-caveat text-3xl underline">
+                      Travel OG
+                    </span>
+                    <p>
+                      The one behind the itinerary building, partnerships and
+                      supply of our destinations. The connections in the travel
+                      industry run deep. He started his career working with his
+                      dad to facilitate travel for Bollywood celebrities in
+                      India. With over 40 years of experience in travel, he's
+                      been facilitating these trips for individuals and groups
+                      of people for over a decade in web2 and also has
+                      experience building booking systems.
+                    </p>
+                  </div>
+                  <div className="my-auto">
+                    <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
+                      <img src={matt} alt="matt" />
+                    </div>
+                  </div>
+                  <div className="col-span-2">
+                    <span className="font-caveat text-3xl underline">
+                      matt.sol
+                    </span>
+                    <p>
+                      Matt is our lead dev and self-proclaimed biggest fan. He
+                      started out in the engineering world working a stale
+                      government job and is now a full-time Web3 dev, working
+                      with the likes of DeGods, Mickey DeGods, and, of course,
+                      us. He's traveled internationally a few times but is
+                      inspired through this project to push further outside of
+                      his comfort zone and see the world.
+                    </p>
+                  </div>
+                </div>
               </div>
               <br />
             </div>
