@@ -46,20 +46,18 @@ h2 {
 }
 
 p {
-  font-family: merriweather, monospace;
+  font-family: jose, monospace;
   font-size: 24px;
 }
 
 span {
-  font-family: opensans, monospace;
+  font-family: caveat, monospace;
   font-size: 28px;
-  font-weight: 800;
 }
 
-@media (max-width: 400px) {
-  p, span {
-    font-family: merriweather, monospace;
-    font-size: 14px !important;
+@media (max-width: 541px) {
+  p {
+    font-size: 20px !important;
     line-height: 28px !important;
   }
 }
