@@ -8,6 +8,9 @@ import maanz from "../assets/9460-dead.png";
 import twenty8G from "../assets/28G.jpeg";
 import travel_og from "../assets/travel_og.jpeg";
 
+// brand assets
+import camel from "../assets/camel.jpeg";
+
 // smooth scrolling
 import { Link } from "react-scroll";
 
@@ -177,41 +180,46 @@ const Roadmap = () => {
                   <span>INTRODUCTION 🛬</span>
                 </p>
                 <br />
-                <div
-                // className="transition transform duration-500 opacity-0 translate-x-32"
-                // data-class-in="translate-x-0 opacity-100"
-                // data-class-out="translate-x-32 opacity-0"
-                >
-                  <p>
-                    Once in a lifetime experiences should be for everyone. For
-                    the average person, traveling to another state can already
-                    be a tall task let alone another country or around the
-                    world. As the tourism industry bounces back and grows, we
-                    believe travel should be accessible to everyone. Others may
-                    want to keep it as a fantasy or believe it's something only
-                    wealthy or retired people can do. Fuck that. We're here to
-                    see everyone experience the world.
-                    <br />
-                    <br />
-                  </p>
-                  <p>
-                    With over a decade facilitating experiences around the world
-                    & generations in the travel industry, we are pioneering
-                    travel in Web3. While others just look to make a profit &
-                    the rest want to keep it out of reach, we're a group of
-                    passionate travelers that wants to connect the world. Our
-                    philosophy is simple: Traveling will change your life.
-                    <br />
-                    <br />
-                  </p>
-                  <p>
-                    This is NOT an investment opportunity, moon play, passive
-                    income, or anything like that. Think of it as replacing
-                    travel credit card perks & shit. Your NFT is an exclusive
-                    access pass to a growing brand & community in this space,
-                    one that will reward its holders, provide value to the
-                    ecosystem, and have everyone enjoying life while we do it.
-                  </p>
+                <div className="lg:grid lg:grid-cols-2">
+                  {/* className="transition transform duration-500 opacity-0 translate-x-32"
+                data-class-in="translate-x-0 opacity-100"
+                data-class-out="translate-x-32 opacity-0" */}
+                  <div>
+                    <p>
+                      Once in a lifetime experiences should be for everyone. For
+                      the average person, traveling to another state can already
+                      be a tall task let alone another country or around the
+                      world. As the tourism industry bounces back and grows, we
+                      believe travel should be accessible to everyone. Others
+                      may want to keep it as a fantasy or believe it's something
+                      only wealthy or retired people can do. Fuck that. We're
+                      here to see everyone experience the world.
+                      <br />
+                      <br />
+                    </p>
+                    <p>
+                      With over a decade facilitating experiences around the
+                      world & generations in the travel industry, we are
+                      pioneering travel in Web3. While others just look to make
+                      a profit & the rest want to keep it out of reach, we're a
+                      group of passionate travelers that wants to connect the
+                      world. Our philosophy is simple: Traveling will change
+                      your life.
+                      <br />
+                      <br />
+                    </p>
+                    <p>
+                      This is NOT an investment opportunity, moon play, passive
+                      income, or anything like that. Think of it as replacing
+                      travel credit card perks & shit. Your NFT is an exclusive
+                      access pass to a growing brand & community in this space,
+                      one that will reward its holders, provide value to the
+                      ecosystem, and have everyone enjoying life while we do it.
+                    </p>
+                  </div>
+                  <div className="hidden lg:block px-5 h-[90%] overflow-clip my-auto">
+                    <img src={camel} alt="camel" />
+                  </div>
                 </div>
                 <br />
                 <p>
