@@ -29,7 +29,7 @@ const Home = () => {
           />
         </video>
         <div className="absolute sm:top-20 top-[300px] left-0 right-0 z-30 mx-auto">
-          <h1 className="text-lounge-gold text-center lg:text-[100px] md:text-[80px] sm:text-[60px] text-[80px]">
+          <h1 className="text-lounge-gold text-center lg:text-[100px] md:text-[80px] sm:text-[60px] text-[70px]">
             JetGetter Club
           </h1>
         </div>
