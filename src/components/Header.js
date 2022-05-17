@@ -17,10 +17,10 @@ const Header = () => {
             </a>
           </div>
           {/* discord */}
-          <div className="rounded-lg mx-2 opacity-50 hover:cursor-not-allowed">
-            {/* <a href="http://www.discord.gg/degods"> */}
-            <img src={discord} width={50} alt="discord"></img>
-            {/* </a> */}
+          <div className="rounded-lg mx-2">
+            <a href="https://discord.gg/jetgetterclub">
+              <img src={discord} width={50} alt="discord"></img>
+            </a>
           </div>
           {/* magic eden */}
           <div className="rounded-lg mx-2 p-3 opacity-50 hover:cursor-not-allowed">
