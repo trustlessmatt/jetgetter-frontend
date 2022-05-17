@@ -35,7 +35,7 @@ const Header = () => {
           {/* Home */}
           <div>
             <Link to="/">
-              <p className=" text-lounge-gold text-3xl font-jose">Home</p>
+              <p className="text-lounge-gold text-3xl font-jose">Home</p>
             </Link>
           </div>
           {/* Blueprint */}
