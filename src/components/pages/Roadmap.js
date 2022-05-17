@@ -2,7 +2,14 @@ import Header from "../Header";
 import jet from "../assets/jet.png";
 // import animate from "../animate";
 
+// team pfps
 import matt from "../assets/6695-dead.jpg";
+import maanz from "../assets/9460-dead.png";
+import twenty8G from "../assets/28G.jpeg";
+import travel_og from "../assets/travel_og.jpeg";
+
+// smooth scrolling
+import { Link } from "react-scroll";
 
 const Roadmap = () => {
   // animate.observeAll();
@@ -17,10 +24,14 @@ const Roadmap = () => {
           <div className="md:text-[90px] text-[40px] text-center font-jose text-lounge-gold pt-8">
             OG BLUEPRINT
           </div>
+          <div className="md:text-[30px] text-[18px] text-center font-jose text-lounge-gold pt-2">
+            (Click gold elements to jump to details in Expanded Blueprint)
+          </div>
           <div className="lg:mx-60 md:mx-20 px-10">
             <div>
               <p className="py-8">
-                <em>What is the JetGetter Club ?</em><br />
+                <em>What is the JetGetter Club ?</em>
+                <br />
               </p>
               <div className="md:pl-20">
                 <p>
@@ -30,7 +41,8 @@ const Roadmap = () => {
               </div>
               <br />
               <p className="py-8">
-                <em>Who are JetGetters ?</em><br />
+                <em>Who are JetGetters ?</em>
+                <br />
               </p>
               <div className="md:pl-20">
                 <p>
@@ -42,16 +54,23 @@ const Roadmap = () => {
             </div>
             <div>
               <p className="py-8">
-                <em>What is the JetGetter Club building ?</em><br />
+                <em>What is the JetGetter Club building ?</em>
+                <br />
               </p>
               <div className="md:pl-20">
                 <div className="md:grid md:grid-cols-3 md:gap-3">
                   <div>
-                    <a href="#community">
-                      <span className="underline text-lounge-gold">
+                    <Link
+                      to="community"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={1000}
+                    >
+                      <span className="text-lounge-gold hover:cursor-pointer">
                         COMMUNITY:
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="md:col-span-2">
                     <p>
@@ -63,9 +82,17 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div>
-                    <a href="#media">
-                      <span className="underline text-lounge-gold">MEDIA:</span>
-                    </a>
+                    <Link
+                      to="media"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={1000}
+                    >
+                      <span className="text-lounge-gold hover:cursor-pointer">
+                        MEDIA:
+                      </span>
+                    </Link>
                   </div>
                   <div className="col-span-2">
                     <p>
@@ -74,11 +101,17 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div>
-                    <a href="#travel">
-                      <span className="underline text-lounge-gold">
+                    <Link
+                      to="travel"
+                      spy={true}
+                      smooth={true}
+                      offset={-50}
+                      duration={1000}
+                    >
+                      <span className="text-lounge-gold hover:cursor-pointer">
                         TRAVEL:
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-span-2">
                     <p>
@@ -106,11 +139,21 @@ const Roadmap = () => {
                 + any products we sell
                 <br />
                 - Access to the best travel community in Web3
-                <br />
-                - A 3D NFT of a Jet created by a Jeweler
+                <br />- A 3D NFT of a Jet created by a Jeweler
               </p>
-              <br />
-              <br />
+            </div>
+            <div className="my-2">
+              <Link
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={1000}
+              >
+                <div className="text-lounge-gold sm:text-[40px] text-[25px] font-caveat hover:cursor-pointer">
+                  Click Here To Meet Our Dope Team 🌈
+                </div>
+              </Link>
             </div>
           </div>
           <img src={jet} className="mx-auto px-28" alt="gold jet" />
@@ -121,8 +164,12 @@ const Roadmap = () => {
           <div className="lg:mx-60 md:mx-20 px-10 text-slate-700">
             <div>
               <p>
-                <strong>For the new wave of travelers. Securing the bag & catching
-                vibes. Living life unapologetically.</strong><br /><br />
+                <strong>
+                  For the new wave of travelers. Securing the bag & catching
+                  vibes. Living life unapologetically.
+                </strong>
+                <br />
+                <br />
               </p>
               <p>
                 <span className="underline">INTRODUCTION</span> 🛬
@@ -286,12 +333,12 @@ const Roadmap = () => {
               <div className="md:pl-20">
                 <div className="md:grid md:grid-cols-3 md:gap-3">
                   <div id="community">
-                    <span className="text-lounge-gold font-opensans underline">
+                    <span className="text-lounge-gold font-opensans">
                       COMMUNITY:
                     </span>
                   </div>
                   <div className="md:col-span-2">
-                    <p>
+                    <p className="pb-2">
                       Our community will be the “Travel Influencers”, but the
                       most authentic ones you've come across. People coming
                       together to share their experiences with others, learn
@@ -302,10 +349,12 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div id="media">
-                    <span className="text-lounge-gold underline">MEDIA:</span>
+                    <span className="text-lounge-gold font-opensans">
+                      MEDIA:
+                    </span>
                   </div>
                   <div className="md:col-span-2">
-                    <p>
+                    <p className="pb-2">
                       How do we showcase our community as the tastemakers of
                       Web3? We build & use our platform to showcase our
                       expertise by providing quality travel content that is
@@ -323,10 +372,12 @@ const Roadmap = () => {
                     </p>
                   </div>
                   <div id="travel">
-                    <span className="text-lounge-gold underline">TRAVEL:</span>
+                    <span className="text-lounge-gold font-opensans">
+                      TRAVEL:
+                    </span>
                   </div>
                   <div className="md:col-span-2">
-                    <p>
+                    <p className="pb-2">
                       <em>This is the alpha you've been waiting for. </em>We are
                       suppliers of full vacation packages in a number of
                       countries including India, Dubai, Greece, Maldives, and
@@ -601,22 +652,23 @@ const Roadmap = () => {
               </div>
               <br />
               {/* about the team */}
+              <div id="team"></div>
               <p>
-                <span className="underline">OUR TEAM </span> ❤️
+                <span className=" text-[35px] underline">OUR TEAM </span> ❤️
               </p>
               <br />
               <div>
                 <div className="sm:grid sm:grid-cols-3 sm:gap-3">
                   <div className="my-auto">
                     <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
-                      <img src="" alt="airmaanz" />
+                      <img src={maanz} alt="airmaanz" />
                     </div>
                   </div>
                   <div className="col-span-2">
                     <span className="font-caveat text-3xl underline">
                       AirMaanz
                     </span>
-                    <p>
+                    <p className="py-4">
                       Our founder Maanz comes from a background in business
                       development in startup & tech companies but travel changed
                       his life. He's also explored independent ventures in the
@@ -636,12 +688,12 @@ const Roadmap = () => {
                   </div>
                   <div className="my-auto">
                     <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
-                      <img src="" alt="28G" />
+                      <img src={twenty8G} alt="28G" />
                     </div>
                   </div>
                   <div className="col-span-2">
                     <span className="font-caveat text-3xl underline">28G</span>
-                    <p>
+                    <p className="py-4">
                       Our co-founder 28G likes to keep it low key because real
                       Gs move in silence ...lol. Her background is in tech,
                       philanthropy and nonprofit building teams, creating
@@ -652,14 +704,14 @@ const Roadmap = () => {
                   </div>
                   <div className="my-auto">
                     <div className="rounded-full overflow-clip sm:w-[200px] w-[150px]">
-                      <img src="" alt="Travel OG" />
+                      <img src={travel_og} alt="Travel OG" />
                     </div>
                   </div>
                   <div className="col-span-2">
                     <span className="font-caveat text-3xl underline">
                       Travel OG
                     </span>
-                    <p>
+                    <p className="py-4">
                       The one behind the itinerary building, partnerships and
                       supply of our destinations. The connections in the travel
                       industry run deep. He started his career working with his
@@ -679,7 +731,7 @@ const Roadmap = () => {
                     <span className="font-caveat text-3xl underline">
                       matt.sol
                     </span>
-                    <p>
+                    <p className="py-4">
                       Matt is our lead dev and self-proclaimed biggest fan. He
                       started out in the engineering world working a stale
                       government job and is now a full-time Web3 dev, working
