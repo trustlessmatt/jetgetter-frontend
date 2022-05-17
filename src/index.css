@@ -52,11 +52,11 @@ p {
 
 span {
   font-family: caveat, monospace;
-  font-size: 28px;
+  font-size: 35px;
 }
 
-@media (max-width: 541px) {
-  p {
+@media (max-width: 600px) {
+  p, span {
     font-size: 20px !important;
     line-height: 28px !important;
   }
