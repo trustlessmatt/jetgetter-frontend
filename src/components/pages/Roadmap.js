@@ -205,12 +205,12 @@ const Roadmap = () => {
                     <br />
                   </p>
                   <p>
-                    This is NOT an investment opportunity, moon play, passive
-                    income, or anything like that. Think of it as replacing
-                    travel credit card perks & shit. Your NFT is an exclusive
-                    access pass to a growing brand & community in this space,
-                    one that will reward its holders, provide value to the
-                    ecosystem, and have everyone enjoying life while we do it.
+                    This is an investment in enhancing your life. Think of it as
+                    replacing travel credit card perks & shit. Your NFT is an
+                    exclusive access pass to a growing brand & community in this
+                    space, one that will reward its holders, provide value to
+                    the ecosystem, and have everyone enjoying life while we do
+                    it.
                   </p>
                 </div>
                 <br />
