@@ -1,4 +1,5 @@
-import lounge from "../assets/Lounge.mp4";
+import lounge_gif from "../assets/lounge.gif";
+import lounge_mp4 from "../assets/Lounge.mp4";
 import Header from "../Header";
 import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
@@ -9,25 +10,26 @@ const Home = () => {
     <div>
       <div className="relative">
         <Header />
-        <video
-          src={lounge}
-          muted
-          autoPlay={"autoplay"}
-          preload="auto"
-          className="absolute z-10 w-full"
-          // onClick={() => {
-          //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
-          // }}
-          loop
-        >
-          <source
-            alt="clouds"
-            type="video/mp4"
+          <video
+            src={lounge_mp4}
+            muted
+            autoPlay={"autoplay"}
+            preload="auto"
+            className="w-full hidden sm:block absolute z-10"
             // onClick={() => {
             //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
             // }}
-          />
-        </video>
+            loop
+          >
+            <source
+              alt="clouds"
+              type="video/mp4"
+              // onClick={() => {
+              //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
+              // }}
+            />
+          </video>
+          <img src={lounge_gif} alt="lounge" className="sm:hidden absolute z-0" />
         <div className="absolute sm:top-20 top-[300px] left-0 right-0 z-30 mx-auto">
           <h1 className="text-lounge-gold text-center lg:text-[100px] md:text-[80px] sm:text-[60px] text-[70px]">
             JetGetter Club
