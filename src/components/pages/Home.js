@@ -51,10 +51,12 @@ const Home = () => {
                 <p className="text-lounge-gold text-3xl font-jose">Blueprint</p>
               </Link>
             </div>
-            {/* Shop */}
-            <div className="hover:cursor-not-allowed">
-              <p className="text-lounge-gold/30 text-3xl font-jose">Shop</p>
-            </div>
+            {/* Mint */}
+          <div>
+            <Link to="https://jetgetter-mint-final.vercel.app/">
+              <p className="text-lounge-gold text-3xl font-jose">Mint</p>
+            </Link>
+          </div>
           </div>
         </div>
         <div className="absolute z-30 top-[450px] left-0 right-0 sm:hidden">

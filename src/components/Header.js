@@ -44,9 +44,11 @@ const Header = () => {
               <p className="text-lounge-gold text-3xl font-jose">Blueprint</p>
             </Link>
           </div>
-          {/* Shop */}
-          <div className="hover:cursor-not-allowed">
-            <p className="text-lounge-gold/30 text-3xl font-jose">Shop</p>
+          {/* Mint */}
+          <div>
+            <Link to="https://jetgetter-mint-final.vercel.app/">
+              <p className="text-lounge-gold text-3xl font-jose">Mint</p>
+            </Link>
           </div>
           {/* wallet connect if desired - placeholder */}
           {/* <div className="rounded-lg bg-white p-3">Connect Wallet</div> */}
