@@ -11,13 +11,13 @@ const Home = () => {
   return (
     <div>
       <div className="relative">
-      <div className="hidden sm:block"><Header /></div>
+      <div className="hidden md:block"><Header /></div>
         <video
           src={lounge_mp4}
           muted
           autoPlay={"autoplay"}
           preload="auto"
-          className="w-full hidden sm:block absolute z-10"
+          className="w-full hidden md:block absolute z-10"
           // onClick={() => {
           //   transcendRef.current.scrollIntoView({ behavior: "smooth" });
           // }}
@@ -31,14 +31,14 @@ const Home = () => {
             // }}
           />
         </video>
-        <img src={lounge_gif} alt="lounge" className="sm:hidden absolute z-0" />
-        <div className="absolute sm:top-20 top-[300px] left-0 right-0 z-30 mx-auto">
-          <h1 className="text-lounge-gold text-center lg:text-[100px] md:text-[80px] sm:text-[60px] text-[70px]">
+        <img src={lounge_gif} alt="lounge" className="md:hidden absolute z-0" />
+        <div className="absolute md:top-20 top-[280px] left-0 right-0 z-30 mx-auto">
+          <h1 className="text-lounge-gold text-center lg:text-[100px] xs:text-[60px] text-[40px]">
             JetGetter Club
           </h1>
         </div>
-        <div className="absolute z-30 top-[400px] left-0 right-0 sm:hidden">
-          <div className="flex justify-center items-center py-2 space-x-8 sm:ml-auto sm:mr-1 mx-auto">
+        <div className="absolute z-30 top-[380px] left-0 right-0 md:hidden">
+          <div className="flex justify-center items-center py-2 space-x-8 md:ml-auto md:mr-1 mx-auto">
             {/* Home */}
             <div>
               <Link to="/">
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
           </div>
         </div>
-        <div className="absolute z-30 top-[450px] left-0 right-0 sm:hidden">
+        <div className="absolute z-30 top-[40px] left-0 right-0 md:hidden">
           <div className="flex items-center justify-center">
             {/* twitter */}
             <div className="rounded-lg mx-2">

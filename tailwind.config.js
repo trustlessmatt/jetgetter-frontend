@@ -23,6 +23,9 @@ module.exports = {
         merriweather: ['merriweather'],
         opensans: ['opensans']
       },
+      screens: {
+        'xs': '290px'
+      }
     },
   },
   plugins: [],
