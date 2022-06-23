@@ -53,9 +53,9 @@ const Home = () => {
             </div>
             {/* Mint */}
           <div>
-            <Link to="https://jetgetter-mint-final.vercel.app/">
+            <a href="https://jetgetter-mint-final.vercel.app/">
               <p className="text-lounge-gold text-3xl font-jose">Mint</p>
-            </Link>
+            </a>
           </div>
           </div>
         </div>
