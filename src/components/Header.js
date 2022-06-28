@@ -5,7 +5,7 @@ import magiceden from "./assets/magiceden.png";
 
 const Header = () => {
   return (
-    <div className="bg-transparent pt-10 absolute z-30 top-0 left-0 right-0">
+    <div className="bg-black/50 py-10 absolute z-30 top-0 left-0 right-0">
       {/* outer header container */}
       <div className="flex items-center px-8">
         {/* header left - social icons */}

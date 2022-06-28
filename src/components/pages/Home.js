@@ -32,8 +32,8 @@ const Home = () => {
           />
         </video>
         <img src={lounge_gif} alt="lounge" className="md:hidden absolute z-0" />
-        <div className="absolute md:top-20 top-[280px] left-0 right-0 z-30 mx-auto">
-          <h1 className="text-lounge-gold text-center lg:text-[100px] xs:text-[60px] text-[40px]">
+        <div className="absolute md:top-24 top-[280px] left-0 right-0 z-30 mx-auto">
+          <h1 className="text-lounge-gold text-center lg:text-[100px] xs:text-[80px] text-[40px]">
             JetGetter Club
           </h1>
         </div>
