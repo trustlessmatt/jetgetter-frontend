@@ -23,10 +23,10 @@ const Header = () => {
             </a>
           </div>
           {/* magic eden */}
-          <div className="rounded-lg mx-2 p-3 opacity-50 hover:cursor-not-allowed">
-            {/* <a href="http://www.magiceden.io/marketplace/degods"> */}
+          <div className="rounded-lg mx-2 p-3">
+            <a href="https://magiceden.io/marketplace/jetgetter_club">
             <img src={magiceden} width={45} alt="magic eden"></img>
-            {/* </a> */}
+            </a>
           </div>
         </div>
 
