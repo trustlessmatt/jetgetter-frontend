@@ -11,7 +11,9 @@ const Home = () => {
   return (
     <div>
       <div className="relative">
-      <div className="hidden md:block"><Header /></div>
+        <div className="hidden md:block">
+          <Header />
+        </div>
         <video
           src={lounge_mp4}
           muted
@@ -33,12 +35,12 @@ const Home = () => {
         </video>
         <img src={lounge_gif} alt="lounge" className="md:hidden absolute z-0" />
         <div className="absolute md:top-24 top-[280px] left-0 right-0 z-30 mx-auto">
-          <h1 className="text-lounge-gold text-center lg:text-[100px] xs:text-[80px] text-[40px]">
+          <div className="font-yellowtail text-lounge-gold text-center xl:text-[140px] lg:text-[100px] xs:text-[65px] text-[40px]">
             JetGetter Club
-          </h1>
+          </div>
         </div>
         <div className="absolute z-30 top-[380px] left-0 right-0 md:hidden">
-          <div className="flex justify-center items-center py-2 space-x-8 md:ml-auto md:mr-1 mx-auto">
+          <div className="flex justify-evenly items-center py-2 md:ml-auto md:mr-1 mx-auto">
             {/* Home */}
             <div>
               <Link to="/">
@@ -51,15 +53,21 @@ const Home = () => {
                 <p className="text-lounge-gold text-3xl font-jose">Blueprint</p>
               </Link>
             </div>
+            {/* Stake */}
+            <div>
+              <a href="https://hangar.jetgetterclub.com">
+                <p className="text-lounge-gold text-3xl font-jose">Stake</p>
+              </a>
+            </div>
             {/* Mint */}
-          <div>
-            <a href="https://jetgetter-mint-final.vercel.app/">
-              <p className="text-lounge-gold text-3xl font-jose">Mint</p>
-            </a>
-          </div>
+            <div>
+              {/* <a href="https://jetgetter-mint-final.vercel.app/"> */}
+                <p className="text-lounge-gold/30 text-3xl font-jose hover:cursor-not-allowed">Mint</p>
+              {/* </a> */}
+            </div>
           </div>
         </div>
-        <div className="absolute z-30 top-[40px] left-0 right-0 md:hidden">
+        <div className="absolute z-30 top-[440px] left-0 right-0 md:hidden">
           <div className="flex items-center justify-center">
             {/* twitter */}
             <div className="rounded-lg mx-2">
@@ -74,10 +82,10 @@ const Home = () => {
               </a>
             </div>
             {/* magic eden */}
-            <div className="rounded-lg mx-2 p-3 opacity-50 hover:cursor-not-allowed">
-              {/* <a href="https://discord.gg/jetgetterclub"> */}
-              <img src={magiceden} width={45} alt=""></img>
-              {/* </a> */}
+            <div className="rounded-lg mx-2 p-3">
+              <a href="https://magiceden.io/marketplace/jetgetter">
+                <img src={magiceden} width={45} alt=""></img>
+              </a>
             </div>
           </div>
         </div>

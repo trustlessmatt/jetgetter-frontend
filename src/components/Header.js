@@ -24,8 +24,8 @@ const Header = () => {
           </div>
           {/* magic eden */}
           <div className="rounded-lg mx-2 p-3">
-            <a href="https://magiceden.io/marketplace/jetgetter_club">
-            <img src={magiceden} width={45} alt="magic eden"></img>
+            <a href="https://magiceden.io/marketplace/jetgetter">
+              <img src={magiceden} width={45} alt="magic eden"></img>
             </a>
           </div>
         </div>
@@ -44,10 +44,15 @@ const Header = () => {
               <p className="text-lounge-gold text-3xl font-jose">Blueprint</p>
             </Link>
           </div>
+          <div>
+            <a href="https://hangar.jetgetterclub.com">
+              <p className="text-lounge-gold text-3xl font-jose">Stake</p>
+            </a>
+          </div>
           {/* Mint */}
           <div className="hover:cursor-not-allowed">
             {/* <a href="https://jetgetter-mint-final.vercel.app/"> */}
-              <p className="text-lounge-gold/50 text-3xl font-jose">Mint</p>
+            <p className="text-lounge-gold/50 text-3xl font-jose">Mint</p>
             {/* </a> */}
           </div>
           {/* wallet connect if desired - placeholder */}
