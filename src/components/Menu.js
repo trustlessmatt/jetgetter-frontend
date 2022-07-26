@@ -47,9 +47,13 @@ export const Menu = ({ open, handleMenu }) => {
             <Link to="/about">
               Benefits
             </Link>
-            <Link to="https://hangar.jetgetterclub.com">
+            <a 
+              href="https://hangar.jetgetterclub.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Stake
-            </Link>
+            </a>
             <div className="hover:cursor-not-allowed opacity-50">Mint</div>
             <div className="hover:cursor-not-allowed opacity-50">Book Travel (Coming Soon)</div>
           </div>
